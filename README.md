@@ -11,6 +11,10 @@ There are different commands in Helm like;
 -kubectl get deployments// verifying deployments
 -kubectl get services// verifying deployments 
 
+Helm charts: helm create <chart name>// bundles the YAML files we created
+              helm install <chart name>// to deploy the kubernetes application
+
+
 
 Below are the steps to incorporate helm into DevOps pipeline:
 
